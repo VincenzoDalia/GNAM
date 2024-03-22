@@ -1,0 +1,80 @@
+### 
+
+GET http://localhost:3001/api/user
+###
+
+GET http://localhost:3001/api/user/items
+###
+
+
+GET http://localhost:3001/api/user/tips
+###
+
+
+GET http://localhost:3001/api/user/goals
+###
+
+
+GET http://localhost:3001/api/user/internationaldishes
+###
+
+
+POST http://localhost:3001/api/
+Content-Type: application/json
+
+{
+    "id": 3,
+    
+}
+###
+
+
+PUT http://localhost:3001/api/
+Content-Type: application/json
+
+{
+    "id": 3,
+    "name": "test"
+}
+###
+
+POST http://localhost:3001/api/feedme
+Content-Type: application/json
+
+{
+    "food_name": "insalata"
+}
+
+###
+
+POST http://localhost:3001/api/feedme/goals
+Content-Type: application/json
+
+{
+    "food_name": "insalata"
+}
+
+###
+
+
+POST http://localhost:3001/api/feedme/international
+Content-Type: application/json
+
+{
+    "name": "ramen"
+}
+
+###
+
+POST http://localhost:3001/api/goals/checkresults
+Content-Type: application/json
+
+{
+    "id" : 1
+}
+
+###
+
+
+GET http://localhost:3001/api/dailymeal
+###
